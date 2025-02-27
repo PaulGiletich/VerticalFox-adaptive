@@ -411,3 +411,22 @@ hbox#nav-bar-customization-target {
 .titlebar-buttonbox{
    margin-bottom: -40px !important;
 }
+
+/* overrides for adaptive */
+
+:root:root {
+    --bg: var(--toolbox-bgcolor);
+
+    --urlbar-bg: var(--bg);
+    --urldrop-bg: var(--bg);
+
+    --arrowpanel-background: var(--urlbar-bg) !important;
+}
+
+#navigator-toolbox#navigator-toolbox {
+    padding-top: 0;
+}
+
+hbox#nav-bar-customization-target#nav-bar-customization-target {
+    padding: 0 !important;
+}

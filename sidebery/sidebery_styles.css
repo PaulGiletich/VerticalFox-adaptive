@@ -411,3 +411,9 @@
 #root:not(:hover) .BottomBar .tool-btn:first-child {
     margin: 0 auto;
 }
+
+/* overrides for adaptive */
+
+#root#root {
+    --bg: var(--s-toolbar-bg) !important;
+}
