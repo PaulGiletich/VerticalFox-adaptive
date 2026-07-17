@@ -204,7 +204,7 @@
 
  /* Navigation Bar Separator */
 #navigator-toolbox {
-   border-color: var(--bg) !important;
+   border-bottom: none !important;
    background-color: var(--bg) !important;
    padding-top: 8px;
 }
