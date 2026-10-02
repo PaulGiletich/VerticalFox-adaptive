@@ -332,6 +332,7 @@ hbox#nav-bar-customization-target {
 	width: var(--uc-sidebar-width) !important;
 	max-width: var(--uc-sidebar-width) !important;
 	z-index: 100;
+   padding-inline-start: 0 !important;
 }
 
 #sidebar-box[positionend] {
@@ -368,7 +369,7 @@ hbox#nav-bar-customization-target {
 	will-change: min-width;
 }
 
-#sidebar-box:hover #sidebar {
+#sidebar-box:hover {
 	min-width: var(--uc-sidebar-hover-width) !important;
 	transition-delay: 0ms !important;
 }
@@ -429,4 +430,11 @@ hbox#nav-bar-customization-target {
 
 hbox#nav-bar-customization-target#nav-bar-customization-target {
     padding: 0 !important;
+}
+
+
+/* ff update */
+
+#sidebar-panel-header {
+   display: none;
 }
