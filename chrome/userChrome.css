@@ -372,6 +372,8 @@ hbox#nav-bar-customization-target {
 #sidebar-box:hover {
 	min-width: var(--uc-sidebar-hover-width) !important;
 	transition-delay: 0ms !important;
+   margin-right: calc(0px - var(--uc-sidebar-hover-width) + var(--uc-sidebar-width)) !important;
+   z-index: 10 !important;
 }
 
 .sidebar-panel {
